@@ -1,0 +1,5 @@
+print("Bienvenido al sistema")
+user = input("What's your name? ")
+x = int(input("Add the first number"))
+y = int(input("Add the second number"))
+print("The result of this sum is", x+y)

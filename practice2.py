@@ -1,0 +1,8 @@
+#Formula de segundo grado(Cuadrática)
+a = int(input(" Add the first value: "))
+b = int(input(" Add the second value: "))
+c = int(input(" Add the third value: "))
+x1 = -b + (b**2 - 4*a*c)**0.5 / (2*a) 
+x2 = -b - (b**2 - 4*a*c)**0.5 / (2*a) 
+print("The result of the first quadrant is: ", x1)
+print("The result of the second quadrant is: ", x2)
